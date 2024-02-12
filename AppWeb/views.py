@@ -204,7 +204,7 @@ def agregar_prov(request):
 
            prov_nuevo.save()
 
-           return render(request, "AppWeb/inicio.html") #para q me lleve a la pag de inicio luego de guardar- a esta pagina me lleva luego de guardar, la q está debajo es donde me ubico antes
+           return render(request, "AppWeb/prov.html") #para q me lleve a la pag de inicio luego de guardar- a esta pagina me lleva luego de guardar, la q está debajo es donde me ubico antes
         
         #no me hace falta este else para q cuando se ubique en la url aparezca vacio el formulario
         #else: 
