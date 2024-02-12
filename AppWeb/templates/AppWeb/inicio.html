@@ -14,8 +14,14 @@ inicio
 {% block titulo2 %}
 
 
+
 Bienvenido/a {{mensaje}} a mi Pagina Web   <!-- variable del mensaje cuando inicia sesion seguido de un string-->
+
+{% if request.user.is_authenticated %}
+
 <button class="btn btn-primary"> <a class="nav-link" href="{% url 'Agregar Imagen' %}">Modificar Foto de Perfil </a></button>  
+
+{% endif %}
                         
 {% endblock %}
 
