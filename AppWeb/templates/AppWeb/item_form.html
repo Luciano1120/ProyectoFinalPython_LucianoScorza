@@ -1,0 +1,20 @@
+{% extends "AppWeb/padre.html" %}
+
+{% block titulo2 %}
+
+
+    <h1> Nuevo Item  </h1>  <!-- es una etiqueta -->
+
+    <form action="" method="POST"> {% csrf_token %}  <!-- se agrega un formulario -action es para enviar a una url desp de darle enviar pero ya se hace en la view en este caso - el metodo post permite agregar datos a la BD- se agrega token de validacion -->
+
+        <table>
+
+            {{form.as_table}}  <!-- el formulario por defecto se llama "form" para vincular con la view de clase-->
+
+        </table>
+
+        <input type="submit" value="Guardar">  <!-- el argumento value es opcional si no sale Enviar-->
+
+    </form>
+
+{% endblock %}

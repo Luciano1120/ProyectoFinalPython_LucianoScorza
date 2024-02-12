@@ -1,0 +1,25 @@
+{% extends "AppWeb/padre.html" %}
+
+
+{% block titulo2 %}
+
+
+
+    <form action="" method="POST">
+
+        {% csrf_token %}
+
+       
+       
+        {{formulario.as_p}}
+
+        
+
+        <button type="submit"> Iniciar Sesión</button>
+
+
+    </form>
+
+
+    
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "AppWeb/padre.html" %}
+
+{% block titulo2 %}
+    
+<br>  <!-- permite hacer saltos de linea para acomodar en este caso la etiqueta h1-->
+<br>
+<br>
+
+<h1> Creamos un Proveedor Nuevo  </h1>  <!-- es una etiqueta -->
+
+    <form action="" method="POST"> {% csrf_token %}  <!-- se agrega un formulario -action es para enviar a una url desp de darle enviar pero ya se hace en la view en este caso - el metodo post permite agregar datos a la BD- se agrega token de validacion -->
+
+        <table>
+
+            {{mi_formu.as_table}}  <!-- .as_table y encuadrarlo dentro de <table >permite visualizar el formulario de forma tabular-->
+
+        </table>
+
+        <input type="submit" value="Guardar">  <!-- el argumento value es opcional si no sale Enviar-->
+
+    </form>
+{% endblock %}
