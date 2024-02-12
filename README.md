@@ -1,6 +1,6 @@
 # ProyectoFinal_LucianoScorza
 ## Datos Alumno
-Luciano Scorza (CP)
+Luciano Scorza
 Comision 50195 de CoderHouse
 
 
