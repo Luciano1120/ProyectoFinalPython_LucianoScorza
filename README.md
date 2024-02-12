@@ -1,18 +1,23 @@
 # ProyectoFinal_LucianoScorza
 ## Datos Alumno
 Luciano Scorza
+
 Comision 50195 de CoderHouse
 
 
 
 ## Tecnología Usada
 Django Version 5.0
+
 Python Version 3.10.5
+
 Proyecto Versio 1.0
 
 ## Alcance del Proyecto
 
 El desarrollo tuvo el objetivo de Armar una especie de Sistema de Gestion, permitiendo en una primera instancia la Carga de Proveedores, Clientes e Items q comercializaría cualquier empresa.
+
+Dejando de esta forma las Bases del Proyecto
 
 ## Modelos
 
